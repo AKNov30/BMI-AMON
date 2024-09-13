@@ -6,15 +6,31 @@
 }
 
 .input{
-  margin: 15px;
+  margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+button{
+  margin-top: 15px;
 }
 
-.read-the-docs {
-  color: #888;
+.light-mode {
+  background-color: #ffffff;
+  color: #213547;
 }
+
+.dark-mode {
+  background-color: #27282b;
+  color: #ffffff;
+}
+
+.light-mode button{
+  color: #000000;
+  background-color: #ffffff;
+  border: #000000 solid 1px;
+}
+
+.dark-mode button{
+  color: #dfdcdc;
+  border: #000000 solid 1px;
+}
+
