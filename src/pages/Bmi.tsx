@@ -41,7 +41,7 @@ function Bmi() {
           <input type="text" placeholder="weight" id="weight" name="weight" onChange={onChangeWeight}/>
         </div>
         <div className="buttonBMI">
-          <Button text="button" />
+          <Button text="Calculate BMI" />
         </div>
       </form>
     </div>
